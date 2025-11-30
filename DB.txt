@@ -1,0 +1,19 @@
+CREATE TABLE peliculas (
+    id SERIAL PRIMARY KEY,
+    titulo VARCHAR(200) NOT NULL,
+    genero VARCHAR(50) NOT NULL
+);
+
+INSERT INTO peliculas (titulo, genero) VALUES
+('John Wick', 'accion'),
+('Mad Max', 'accion'),
+('Misión Imposible', 'accion'),
+('Superbad', 'comedia'),
+('Ted', 'comedia'),
+('Scary Movie', 'comedia'),
+('The Conjuring', 'terror'),
+('Annabelle', 'terror'),
+('It', 'terror'),
+('Forrest Gump', 'drama'),
+('The Green Mile', 'drama'),
+('The Pursuit of Happyness', 'drama');
